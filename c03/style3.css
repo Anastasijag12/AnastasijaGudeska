@@ -1,0 +1,17 @@
+.absolute-box {
+    position: absolute;
+    background-color: rgb(209, 63, 63);
+    padding: 10px;
+    margin: 10px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .fixed-box {
+    position: fixed;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    
+  }
