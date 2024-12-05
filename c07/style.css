@@ -1,0 +1,31 @@
+.kartica {
+    height:200px;
+    display:flex;
+    padding: 10px;
+    background-color:lightblue;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px blue;
+    border: 1px solid blue;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    
+}
+
+.informacii{
+    padding-left: 30px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
