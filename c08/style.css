@@ -1,19 +1,28 @@
-.grid conteiner {
-    height: 300px;
-    border:1 px solid red;
-    display:grid;
-    grid-template-columns: 100px 100px;
-    gap:10px;
-
+.column{
+    float: left;
+    width: 30px;
 }
 
-.grid-template-ares:
-"header header";
+.row::after {
+    content: "";
+    display: flex;
+    clear: both;
+}
 
+.column {
+    float: left;
+}
 
+.left, .right {
+    width: 25px;
+}
 
-.grid-item-1{
-    grid-area:header;
-    
+.middle {
+    width: 50px;
+}
 
+@media screen and (max-width:600px) {
+    .column {
+        width: 100px;
+    }
 }
