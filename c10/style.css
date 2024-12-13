@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: red;
+  }
+  
+ 
+  .animated-title {
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateX(-100%); 
+    animation: slideIn 2s ease-out; 
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%); /
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /
+    }
+  }
+
+  
+
+  
